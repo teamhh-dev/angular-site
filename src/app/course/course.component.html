@@ -1,0 +1,22 @@
+<section>
+<div class="container-fluid">
+    <div class="row" *ngFor="let cs of course">
+      <div class="col-sm">
+        <div class="card mx-auto my-4" style="width: 20rem;">
+            <img class="card-img-top" src="{{cs.img}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{cs.title}}</h5>
+              <p class="card-text">{{cs.description}}</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+      </div>
+      <!-- <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div> -->
+    </div>
+  </div>
+</section>
